@@ -46,11 +46,10 @@ Kami mengembangkan **Nolep**, sebuah aplikasi berbasis AI yang dapat:
 ### **f. Analisis Kompetitor** 
 
 #### **Kompetitor 1: Anti Sleep Pilot**  
-| **Nama**                  | Anti Sleep Pilot  |  
-|---------------------------|------------------|  
-| **Jenis Kompetitor**      | Indirect Competitor |  
-| **Jenis Produk**         | Hardware Service |  
-| **Target Customer**      | Pengemudi |  
+- **Nama**: Anti Sleep Pilot
+- **Jenis Kompetitor**: Indirect Competitor
+- **Jenis Produk**: Hardware Service
+- **Target Customer**: Pengemudi
 
 
 | **Kelebihan**            | **Kekurangan** |  
@@ -66,11 +65,10 @@ Kami mengembangkan **Nolep**, sebuah aplikasi berbasis AI yang dapat:
 ---
 
 #### **Kompetitor 2: Awake**  
-| **Nama**                  | Awake  |  
-|---------------------------|------------------|  
-| **Jenis Kompetitor**      | Direct Competitor |  
-| **Jenis Produk**         | Software Mobile |  
-| **Target Customer**      | Pengemudi |  
+- **Nama**: Awake  
+- **Jenis Kompetitor**: Direct Competitor  
+- **Jenis Produk**: Software Mobile  
+- **Target Customer**: Pengemudi  
 
 
 | **Kelebihan**            | **Kekurangan** |  
@@ -85,11 +83,10 @@ Kami mengembangkan **Nolep**, sebuah aplikasi berbasis AI yang dapat:
 ---
 
 #### **Kompetitor 3: Aware Driving**  
-| **Nama**                  | Aware Driving  |  
-|---------------------------|------------------|  
-| **Jenis Kompetitor**      | Direct Competitor |  
-| **Jenis Produk**         | Software Service |  
-| **Target Customer**      | Pengemudi |  
+- **Nama**: Aware Driving  
+- **Jenis Kompetitor**: Direct Competitor  
+- **Jenis Produk**: Software Service  
+- **Target Customer**: Pengemudi  
 
 
 | **Kelebihan**            | **Kekurangan** |  
