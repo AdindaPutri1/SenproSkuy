@@ -52,6 +52,7 @@ Kami mengembangkan **Nolep**, sebuah aplikasi berbasis AI yang dapat:
 | **Jenis Produk**         | Hardware Service |  
 | **Target Customer**      | Pengemudi |  
 
+
 | **Kelebihan**            | **Kekurangan** |  
 |--------------------------|---------------|  
 | Mudah di-setting         | Berbayar      |  
@@ -71,6 +72,7 @@ Kami mengembangkan **Nolep**, sebuah aplikasi berbasis AI yang dapat:
 | **Jenis Produk**         | Software Mobile |  
 | **Target Customer**      | Pengemudi |  
 
+
 | **Kelebihan**            | **Kekurangan** |  
 |--------------------------|---------------|  
 | Gratis                   | Hanya mendeteksi mata |  
@@ -88,6 +90,7 @@ Kami mengembangkan **Nolep**, sebuah aplikasi berbasis AI yang dapat:
 | **Jenis Kompetitor**      | Direct Competitor |  
 | **Jenis Produk**         | Software Service |  
 | **Target Customer**      | Pengemudi |  
+
 
 | **Kelebihan**            | **Kekurangan** |  
 |--------------------------|---------------|  
