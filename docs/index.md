@@ -6,7 +6,7 @@ zzz turu - Kelompok 7 Senior Project TI
 ## 2. Anggota dan NIM Kelompok
 - Faundra Pratama Sukma (22/505520/TK/55323)
 - Adinda Putri Romadhon (22/505508/TK/55321)
-- Aisa Selvira Quraata A’yunni (22/498561/Tk/54690)
+- Aisa Selvira Quraata Aâ€™yunni (22/498561/Tk/54690)
 
 ## 3. Project Senior Project TI
 Aplikasi **Nolep** dikembangkan dalam rangka Senior Project TI untuk meningkatkan keselamatan berkendara melalui deteksi microsleep berbasis image processing.
