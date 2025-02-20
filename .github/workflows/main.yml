@@ -1,0 +1,80 @@
+name: CI/CD Workflow | Senpro Kelompok 7 (zz turu)
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test-build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        project: [frontend, backend]
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # Frontend Setup (Node.js + React/Vue/Next.js)
+      - name: Set up Node.js (Frontend)
+        if: matrix.project == 'frontend'
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'npm'
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install Dependencies (Frontend)
+        if: matrix.project == 'frontend'
+        run: |
+          cd frontend
+          npm install
+
+      - name: Run Tests (Frontend)
+        if: matrix.project == 'frontend'
+        run: |
+          cd frontend
+          npm test
+
+      - name: Build Project (Frontend)
+        if: matrix.project == 'frontend'
+        run: |
+          cd frontend
+          npm run build
+
+      # Backend Setup (Node.js + Express)
+      - name: Set up Node.js (Backend)
+        if: matrix.project == 'backend'
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'npm'
+          cache-dependency-path: backend/package-lock.json
+
+      - name: Install Dependencies (Backend)
+        if: matrix.project == 'backend'
+        run: |
+          cd backend
+          npm install
+
+      - name: Run Tests (Backend)
+        if: matrix.project == 'backend'
+        run: |
+          cd backend
+          npm test
+
+      - name: Lint & Format Code (Backend)
+        if: matrix.project == 'backend'
+        run: |
+          cd backend
+          npm run lint
+
+      - name: Start Server (Backend)
+        if: matrix.project == 'backend'
+        run: |
+          cd backend
+          node server.js &
